@@ -1,0 +1,7 @@
+.grid__container {
+  width: 100%;
+  height: max-content;
+  padding: 1rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}

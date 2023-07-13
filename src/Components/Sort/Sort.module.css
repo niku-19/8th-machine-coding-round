@@ -1,0 +1,32 @@
+.sort__header {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.event__heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.select__event__type {
+  width: 25rem;
+  height: max-content;
+}
+
+select {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+}
